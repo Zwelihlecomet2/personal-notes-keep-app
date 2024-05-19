@@ -78,3 +78,55 @@
 
 
 
+
+
+
+/* Styles For the Fourth Page */
+
+
+
+
+
+/* Styles For the sixth-page */
+.sixth-page .container section .text p:last-child{
+    font-size: .9rem;
+    color: grey;
+}
+
+
+/* Styles For the Last Page */
+.last-page .container section{
+    background-image: url(./assets/footer-image.jpg);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+
+}
+
+.last-page .container section .overlay{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 40%;
+}
+
+.last-page .container section  .text{
+    padding-top: 8em;
+}
+
+.last-page .container section .text p{
+    font-weight: 800;
+    opacity: 100%;
+}
+
+
+.last-page .container section .text button{
+    font-weight: 700;
+}
