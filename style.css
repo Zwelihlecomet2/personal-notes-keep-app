@@ -130,3 +130,8 @@
 .last-page .container section .text button{
     font-weight: 700;
 }
+
+/* Few Styles For the Footer */
+footer p{
+    font-weight: 500;
+}
