@@ -4,3 +4,72 @@
     box-sizing: border-box;
 }
 
+
+/* Styles For the First Page */
+.first-page{
+    background-image: url(./assets/bg-picture.jpg);
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    display: grid;
+}
+
+.overlay{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 40%;
+}
+
+.first-page header{
+    height: 20%;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.first-page header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: .7em .7em;
+}
+
+.first-page header nav .social-links{
+    margin-top: 1em;
+}
+.first-page header nav i{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.first-page header nav img{
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+}
+
+
+/* .first-page h1{
+    margin-left: 2em;
+} */
+
+/* .first-page button{
+    margin-left: 6em;
+} */
+
+/* Styles For The Second Page */
+.first-images img:nth-child(3){
+    font-size: 10em;
+}
+
+.first-images img:nth-child(3){
+    height: 2em;
+    width: 3em;
+    margin: 1rem;
+}
