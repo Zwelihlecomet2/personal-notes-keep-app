@@ -42,6 +42,24 @@
     .lost-page .container section .text{
         margin-left: 20em;
     }
+
+    header nav .right-side-bar span{
+        padding: 2px 2em;
+    }
+
+    .left-side-bar{
+        padding: 0px 10px;
+    }
+
+    .left-side-bar .search-bar{
+        padding-left: 15em;
+    }
+
+    .left-side-bar .search-bar form input{
+        width: 40vw;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
 }
 
 
@@ -56,7 +74,12 @@
     }
 
 
-    header nav .search-bar form input{
-        /* display: none; */
+    header nav .left-side-bar .search-bar form input{
+        display: none;
     }
+
+    header nav .right-side-bar span{
+        padding: 2px 5px;
+    }
+
 }
