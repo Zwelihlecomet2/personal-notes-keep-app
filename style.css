@@ -31,18 +31,18 @@
 .first-page header{
     height: 20%;
     width: 100%;
-    /* background-color: black; */
 }
 
 .first-page header nav{
     display: flex;
     justify-content: space-between;
-    padding: .7em .7em;
+    background-color: #cccc;
 }
 
 .first-page header nav .social-links{
     margin-top: 1em;
 }
+
 .first-page header nav i{
     font-size: 2rem;
     padding: 10px;
