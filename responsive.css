@@ -54,4 +54,9 @@
         position: fixed;
         top: 0;
     }
+
+
+    header nav .search-bar form input{
+        /* display: none; */
+    }
 }
