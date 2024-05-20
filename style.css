@@ -48,9 +48,10 @@
     padding: 10px;
 }
 
-.first-page header nav img{
-    height: 5em;
-    width: 5em;
+.first-page header nav  .logo img{
+    height: 4em;
+    width: 4em;
+    
     border-radius: 50%;
 }
 
@@ -58,8 +59,6 @@
 
 /* Styles For The Second Page */
 .second-page{
-    /* height: 100vh;
-    width: 100%; */
     overflow-x: hidden;
 }
 

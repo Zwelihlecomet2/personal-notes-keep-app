@@ -8,7 +8,7 @@
 @media (min-width : 500px){
 
     .first-page header nav{
-        height: 10vh;
+        height: 9vh;
         width: 100%;
         position: fixed;
         top: 0;
@@ -49,7 +49,7 @@
 /* Media Queries For Small Screens */
 @media (max-width : 499px){
     .first-page header nav{
-        height: 15vh;
+        height: 13.3vh;
         width: 100%;
         position: fixed;
         top: 0;
