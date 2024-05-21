@@ -48,6 +48,10 @@
     .left-side-bar .search-bar form input{
         width: 40vw;
     }
+
+    .main-section .middle-menu-bar .input-group input{
+        width: 40vw;
+    }
 }
 
 
@@ -63,12 +67,12 @@
 
 
     /* Media Queries for the App Landing Page */
-    header nav .left-side-bar .search-bar form input{
-        display: none;
-    }
 
     header nav .right-side-bar span{
         padding: 0px 3px;
     }
 
+    .main-section .middle-menu-bar .input-group input{
+        width: 17.5em;
+    }
 }

@@ -149,9 +149,6 @@ header nav{
 
 header nav .nav-bar{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 header nav .left-side-bar .menu-bar i{
@@ -173,3 +170,8 @@ header nav .right-side-bar i{
 .search-bar form button{
     margin-top: .2em;
 }
+
+
+
+
+/* Styles for the Notes taking Section */
