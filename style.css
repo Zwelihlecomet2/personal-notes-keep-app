@@ -169,6 +169,22 @@ header nav .left-side-bar .logo img{
 
 
 /* Styles for the Notes taking Section */
-.middle-menu-bar .container .note-icons i{
-        
+.middle-menu-bar .added-Notes{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.middle-menu-bar .added-Notes .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.middle-menu-bar .added-Notes .container .light-icon i{
+    font-size: 3em;
 }
