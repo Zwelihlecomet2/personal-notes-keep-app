@@ -50,7 +50,7 @@
     }
 
     .main-section .middle-menu-bar .input-group input{
-        /* width: 60vw; */
+        width: 60vw;
     }
 }
 
@@ -70,9 +70,5 @@
 
     header nav .right-side-bar span{
         padding: 0px 3px;
-    }
-
-    .main-section .middle-menu-bar .input-group input{
-        /* width: 15em; */
     }
 }
