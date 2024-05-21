@@ -50,7 +50,7 @@
     }
 
     .main-section .middle-menu-bar .input-group input{
-        width: 40vw;
+        /* width: 60vw; */
     }
 }
 
@@ -73,6 +73,6 @@
     }
 
     .main-section .middle-menu-bar .input-group input{
-        width: 17.5em;
+        /* width: 15em; */
     }
 }
