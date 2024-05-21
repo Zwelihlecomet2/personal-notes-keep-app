@@ -142,12 +142,13 @@ footer p{
 
 
 /* Styles For the App Landing Page */
-header{
+header nav{
     background-color: #cccc;
     width: 100vw;
 }
 
 header nav .nav-bar{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,7 +160,6 @@ header nav .left-side-bar .menu-bar i{
 
 header nav .left-side-bar .logo img{
     height: 2.5em;
-    width: 2.5em;
     border-radius: 50%;
     
 }
