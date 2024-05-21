@@ -144,6 +144,7 @@ footer p{
 /* Styles For the App Landing Page */
 header{
     background-color: #cccc;
+    width: 100vw;
 }
 
 header nav .nav-bar{
