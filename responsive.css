@@ -5,7 +5,7 @@
 }
 
 
-@media (min-width : 500px){
+@media (min-width : 768px){
 
     .first-page header nav{
         height: 9vh;
@@ -58,8 +58,8 @@
 
 
 
-/* Media Queries For Small Screens */
-@media (max-width : 499px){
+/* Media Queries For Mobile Phones */
+@media (max-width : 767px){
     .first-page header nav{
         height: 11vh;
         width: 100%;
@@ -99,8 +99,5 @@
         display: inline;
         color: black;
     }
-
-
-
 
 }
