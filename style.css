@@ -188,3 +188,36 @@ header nav .left-side-bar .logo img{
 .middle-menu-bar .added-Notes .container .light-icon i{
     font-size: 3em;
 }
+
+
+
+
+
+/* Styles for the  Hover Effects in the app landing Page*/
+.left-side-bar .menu-bar span:hover{
+    cursor: pointer;
+    background-color: #cccc;
+    color: white;
+    border-radius: 10%;
+}
+
+.right-side-bar span:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.middle-menu-bar .note-icons i:hover{
+    background-color: #cccc;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.main-section .left-menu-bar .parent:hover{
+    cursor: pointer;
+    background-color: #cccc;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    
+}

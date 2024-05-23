@@ -52,6 +52,8 @@
     .main-section .middle-menu-bar .input-group input{
         width: 60vw;
     }
+
+
 }
 
 
@@ -71,4 +73,34 @@
     header nav .right-side-bar span{
         padding: 0px 3px;
     }
+
+
+
+    .main-section .left-menu-bar .inline{
+        display: none;
+    }
+
+    .main-section .left-menu-bar:hover{
+        background-color: #cccc;
+        position: relative;
+        width: 52vw;
+        height: 87vh;
+        transition-duration: 1s;
+        z-index: 1;
+    }
+    
+    .middle-menu-bar{
+        position: absolute;
+        left: 65px;
+    }
+
+
+    .main-section .left-menu-bar:hover .inline{
+        display: inline;
+        color: black;
+    }
+
+
+
+
 }
